@@ -1,5 +1,5 @@
 export default function HomePage () {
   return (
-    <h1>Esta es nuestra app por ahora</h1>
+    <h1>This is the Home Page</h1>
   )
 }
