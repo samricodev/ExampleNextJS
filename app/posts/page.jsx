@@ -1,5 +1,10 @@
-export default function PostsPage () {
+import ListOfPosts from './ListOfPosts'
+import styles from './Posts.module.css'
+
+export default async function PostsPage () {
   return (
-    <h1>This is the Posts Page</h1>
+    <section className={styles.section}>
+      <ListOfPosts />
+    </section>
   )
 }
